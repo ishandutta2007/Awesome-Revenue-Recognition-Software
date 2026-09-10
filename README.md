@@ -52,37 +52,37 @@ This repository focuses particularly on companies looking for **open-source buil
 
 These are commercial platforms that provide dedicated revenue-recognition, revenue-accounting, billing, subscription, or financial-management capabilities.
 
-| Platform                                                                                  | Primary Strength            | Typical Use Case                            |
-| ----------------------------------------------------------------------------------------- | --------------------------- | ------------------------------------------- |
-| [Leapfin](https://www.leapfin.com/)                                                       | Revenue automation          | High-volume SaaS and transaction businesses |
-| [Zenskar](https://www.zenskar.com/)                                                       | Billing + revenue           | Complex usage and subscription models       |
-| [Sequence](https://www.sequencehq.com/)                                                   | Billing / monetization      | Modern SaaS and usage-based businesses      |
-| [Softrax](https://www.softrax.com/)                                                       | Revenue management          | Enterprise revenue automation               |
-| [RightRev](https://www.rightrev.com/)                                                     | Revenue recognition         | ASC 606 / IFRS 15                           |
-| [Chargebee RevRec](https://www.chargebee.com/revrec/)                                     | Subscription revenue        | SaaS/subscription companies                 |
-| [Zuora Revenue](https://www.zuora.com/products/revenue/)                                  | Enterprise RevRec           | Complex subscription businesses             |
-| [Maxio](https://www.maxio.com/)                                                           | SaaS finance                | Subscription finance and RevRec             |
-| [Sage Intacct](https://www.sage.com/en-us/products/sage-intacct/)                         | Financial management        | Mid-market accounting                       |
-| [Oracle Revenue Management](https://www.oracle.com/erp/financials/revenue-management/)    | Enterprise revenue          | Large enterprises                           |
-| [Oracle NetSuite ARM](https://www.netsuite.com/)                                          | Advanced Revenue Management | ERP-integrated RevRec                       |
-| [HubiFi](https://www.hubifi.com/)                                                         | Revenue automation          | Transaction-heavy businesses                |
-| [Trullion](https://trullion.com/)                                                         | AI revenue accounting       | Contract and revenue accounting             |
-| [Certinia](https://www.certinia.com/)                                                     | ERP + RevRec                | Professional services                       |
-| [Workday Revenue Management](https://www.workday.com/)                                    | Enterprise finance          | Large organizations                         |
-| [SAP Revenue Accounting and Reporting](https://www.sap.com/)                              | Enterprise RevRec           | SAP environments                            |
-| [Microsoft Dynamics 365 Finance](https://www.microsoft.com/dynamics-365/products/finance) | Financial accounting        | Enterprise ERP                              |
-| [Salesforce Revenue Cloud](https://www.salesforce.com/)                                   | Quote-to-cash               | Salesforce-centric organizations            |
-| [Stripe Billing](https://stripe.com/billing)                                              | Billing infrastructure      | SaaS and internet businesses                |
-| [Recurly](https://recurly.com/)                                                           | Subscription billing        | Recurring-revenue businesses                |
-| [Ordway](https://ordwaylabs.com/)                                                         | Billing + RevRec            | Complex billing                             |
-| [Chargezoom](https://www.chargezoom.com/)                                                 | Billing / AR                | SMB and mid-market                          |
-| [BillingPlatform](https://billingplatform.com/)                                           | Enterprise billing          | Complex monetization                        |
-| [Moesif](https://www.moesif.com/)                                                         | Usage analytics             | API/usage businesses                        |
-| [Maxio RevRec](https://www.maxio.com/)                                                    | SaaS revenue recognition    | B2B SaaS                                    |
-| [Softrax Revenue Management](https://www.softrax.com/)                                    | Contract revenue            | Enterprise RevRec                           |
-| [Zuora Billing](https://www.zuora.com/products/billing/)                                  | Subscription billing        | Enterprise SaaS                             |
-| [Zuora RevPro / Zuora Revenue](https://www.zuora.com/)                                    | Revenue accounting          | Complex contracts                           |
-| [NetSuite Advanced Revenue Management](https://www.netsuite.com/)                         | ERP RevRec                  | NetSuite customers                          |
+| Platform | Primary Strength | Typical Use Case | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| [Leapfin](https://www.leapfin.com/) | Revenue automation | High-volume SaaS and transaction businesses | Starts at **~$1,000/month** (~$12,000/year base platform) | **14-day guided proof-of-concept sandbox trial** via sales consultation |
+| [Zenskar](https://www.zenskar.com/) | Billing + revenue | Complex usage and subscription models | Starts at **~$1,667/month** (~$20,000/year Starter tier baseline) | **14-day guided sandbox pilot** upon demo consultation |
+| [Sequence](https://www.sequencehq.com/) | Billing / monetization | Modern SaaS and usage-based businesses | **$799/month** (Growth plan for up to $1M annual revenue) | **14-day interactive sandbox access** via dashboard.sandbox.sequencehq.com |
+| [Softrax](https://www.softrax.com/) | Revenue management | Enterprise revenue automation | Starts at **~$420/month** (~$5,000/year entry baseline) | **14-day guided proof-of-concept sandbox evaluation** via demo request |
+| [RightRev](https://www.rightrev.com/) | Revenue recognition | ASC 606 / IFRS 15 | **$2,500/month** (~$30,000/year entry tier on Salesforce AppExchange) | **14-day guided proof-of-concept sandbox trial** upon sales consultation |
+| [Chargebee RevRec](https://www.chargebee.com/revrec/) | Subscription revenue | SaaS/subscription companies | **$599/month** (Performance plan base + RevRec module, billed $7,188/year; includes up to $100k/mo MRR + 0.75% overage) | **Permanent Free Tier (Starter Plan):** Free up to $250,000 cumulative lifetime billing (0.75% overage thereafter); 14-day free trial on Performance plan |
+| [Zuora Revenue](https://www.zuora.com/products/revenue/) | Enterprise RevRec | Complex subscription businesses | Starts at **~$2,083/month** (~$25,000/year minimum platform commitment) | **30-day sandbox trial environment** upon demo qualification |
+| [Maxio](https://www.maxio.com/) | SaaS finance | Subscription finance and RevRec | **$599/month** (Grow plan for up to $100,000/month billings) | **Permanent Free Tier (Build Plan):** $0/month unlimited sandbox for API testing and workflow setup; 30-day free trial on Grow plan |
+| [Sage Intacct](https://www.sage.com/en-us/products/sage-intacct/) | Financial management | Mid-market accounting | Starts at **~$750/month** (~$9,000–$12,000/year base configuration) | **30-day interactive guided product tour / sandbox environment** upon sales consultation |
+| [Oracle Revenue Management](https://www.oracle.com/erp/financials/revenue-management/) | Enterprise revenue | Large enterprises | **$175–$500/user/month** (Cloud license starting tier, ~$2,000/month baseline organization minimum) | **30-day Oracle Cloud Free Tier** with $300 cloud credits + guided demo sandbox |
+| [Oracle NetSuite ARM](https://www.netsuite.com/) | Advanced Revenue Management | ERP-integrated RevRec | Starts at **$500–$1,500/month** (ARM add-on module fee, over NetSuite base ERP starting at $999/month + $99/user/month) | **14-day NetSuite guided product tour / interactive sandbox demo** via sales consultation |
+| [HubiFi](https://www.hubifi.com/) | Revenue automation | Transaction-heavy businesses | Starts at **~$1,833/month** (~$22,000/year entry baseline) | **14-day guided sandbox pilot / proof-of-concept** upon sales evaluation |
+| [Trullion](https://trullion.com/) | AI revenue accounting | Contract and revenue accounting | Starts at **~$250/month** (~$3,000/year entry tier for basic contract parsing) | **14-day free trial** on sandbox environment upon demo request |
+| [Certinia](https://www.certinia.com/) | ERP + RevRec | Professional services | **$100–$350/user/month** (Core ERP/RevRec license, ~$1,500/month minimum base) | **14-day guided proof-of-concept sandbox** on Salesforce AppExchange via demo request |
+| [Workday Revenue Management](https://www.workday.com/) | Enterprise finance | Large organizations | Starts at **~$8,333/month** (~$100,000/year minimum contract value; ~$100–$200/employee/month) | **14-day guided sandbox proof-of-concept evaluation** upon enterprise consultation |
+| [SAP Revenue Accounting and Reporting](https://www.sap.com/) | Enterprise RevRec | SAP environments | Starts at **~$3,500/month** (~$42,000/year S/4HANA Cloud RAR baseline) | **14-day free guided evaluation** on SAP BTP / SAP S/4HANA Cloud Trial environment |
+| [Microsoft Dynamics 365 Finance](https://www.microsoft.com/dynamics-365/products/finance) | Financial accounting | Enterprise ERP | **$210/user/month** (Base license with Revenue Recognition included; Team Member licenses from $8/user/month) | **30-day free trial** with full cloud sandbox access, sample financial datasets, and preconfigured workflows (no credit card required) |
+| [Salesforce Revenue Cloud](https://www.salesforce.com/) | Quote-to-cash | Salesforce-centric organizations | **$200/user/month** (Revenue Cloud Advanced starting tier, billed annually; CPQ starts at $75/user/month) | **30-day trial** via Salesforce Demo Org (SDO) upon sales consultation |
+| [Stripe Billing](https://stripe.com/billing) | Billing infrastructure | SaaS and internet businesses | **$0/month base + 0.7%** per recurring transaction (Stripe RevRec module adds 0.4%) | **Permanent Free Tier:** Unlimited free test mode / developer sandbox with simulated charges and webhooks; 30-day free trial for live Revenue Recognition |
+| [Recurly](https://recurly.com/) | Subscription billing | Recurring-revenue businesses | **$249/month + 0.9%** (Starter plan; includes first $40,000/month billing volume) | **90-day free trial** on Starter plan with up to $40,000/month billing processing included (no credit card required) |
+| [Ordway](https://ordwaylabs.com/) | Billing + RevRec | Complex billing | Starts at **$500/month** (~$6,000/year baseline tier) | **14-day personalized sandbox pilot** upon sales demo consultation |
+| [Chargezoom](https://www.chargezoom.com/) | Billing / AR | SMB and mid-market | **$0/month** (Free plan; paid Plus plan starts at **$95/month** for $150K annual processing) | **Permanent Free Tier:** $0/month always-free plan with up to 5 users, unlimited co-branded e-invoicing & payment links, and 2-way sync; 30-day free trial on Plus plan |
+| [BillingPlatform](https://billingplatform.com/) | Enterprise billing | Complex monetization | Starts at **~$1,500/month** (~$18,000/year entry baseline) | **14-day free trial** ("Test Drive" interactive sandbox with monetization workflows) |
+| [Moesif](https://www.moesif.com/) | Usage analytics | API/usage businesses | **$0/month** (Free plan; paid Grow plan starts at **$100/month** for 1M events) | **Permanent Free Tier:** Up to 50,000 API events/month with 3 team seats; 14-day free trial on Grow/Pro plans (no credit card required) |
+| [Maxio RevRec](https://www.maxio.com/) | SaaS revenue recognition | B2B SaaS | **$599/month** (Grow plan covering up to $100k/month billings with RevRec engine included) | **Permanent Free Tier (Build Plan):** $0/month unlimited sandbox for API testing and workflow setup; 30-day free trial on Grow plan |
+| [Softrax Revenue Management](https://www.softrax.com/) | Contract revenue | Enterprise RevRec | Starts at **~$420/month** (~$5,000/year entry baseline for Revenue Manager module) | **14-day guided proof-of-concept sandbox evaluation** via demo request |
+| [Zuora Billing](https://www.zuora.com/products/billing/) | Subscription billing | Enterprise SaaS | Starts at **~$2,083/month** (~$25,000/year Growth edition minimum platform fee) | **30-day sandbox trial environment** upon demo qualification |
+| [Zuora RevPro / Zuora Revenue](https://www.zuora.com/) | Revenue accounting | Complex contracts | Starts at **~$2,083/month** (~$25,000/year minimum platform commitment) | **30-day sandbox trial environment** upon demo qualification |
+| [NetSuite Advanced Revenue Management](https://www.netsuite.com/) | ERP RevRec | NetSuite customers | Starts at **$500–$1,500/month** (ARM add-on module fee, over NetSuite base ERP starting at $999/month + $99/user/month) | **14-day NetSuite guided product tour / interactive sandbox demo** via sales consultation |
 
 ---
 
