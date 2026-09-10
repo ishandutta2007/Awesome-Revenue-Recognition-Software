@@ -1,36 +1,44 @@
-# Awesome-Revenue-Recognition-Software
+<div align="center">
 
-## 💰 Top Revenue Recognition Software
+<img src="assets/banner.svg" alt="Awesome Revenue Recognition Software Banner" width="100%">
 
-> A curated list of **Revenue Recognition, Revenue Accounting, Deferred Revenue, Contract Accounting, Subscription Revenue, ASC 606, IFRS 15, SSP Allocation, Revenue Scheduling, and Revenue Automation platforms** — with a strong emphasis on **open-source and self-hosted alternatives**.
+# 💰 Awesome Revenue Recognition Software (ASC 606 & IFRS 15)
 
-Revenue recognition software automates the accounting treatment of customer contracts, subscriptions, invoices, performance obligations, deferred revenue, contract modifications, standalone selling price (SSP) allocation, revenue schedules, journal entries, and financial reporting.
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Revenue-Recognition-Software?style=flat-square&color=gold)](https://github.com/ishandutta2007/Awesome-Revenue-Recognition-Software/stargazers)
+[![Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Revenue-Recognition-Software?style=flat-square&color=blue)](https://github.com/ishandutta2007/Awesome-Revenue-Recognition-Software/network/members)
+[![License](https://img.shields.io/github/license/ishandutta2007/Awesome-Revenue-Recognition-Software?style=flat-square&color=green)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Revenue-Recognition-Software?style=flat-square&color=orange)](https://github.com/ishandutta2007/Awesome-Revenue-Recognition-Software/commits/main)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-This repository focuses particularly on companies looking for **open-source building blocks or self-hosted alternatives** to proprietary platforms such as **Leapfin, Zenskar, Sequence, Softrax, RightRev, Chargebee RevRec, Zuora Revenue, Maxio, Sage Intacct RevRec, Oracle Revenue Management, HubiFi, Trullion, and NetSuite ARM**.
-
-> **Important:** There are currently far fewer mature open-source products that provide a complete drop-in replacement for enterprise revenue-recognition suites. The open-source ecosystem is therefore divided into:
->
-> 1. **Direct revenue-recognition/accounting platforms**
-> 2. **Open-source ERP/accounting systems with deferred-revenue functionality**
-> 3. **Open-source billing and monetization platforms**
-> 4. **Revenue-recognition calculation engines and reference implementations**
-> 5. **Data, workflow, reporting, and infrastructure components** for building a complete self-hosted RevRec platform
+<p align="center">
+  <strong>The definitive, SEO-optimized curated directory of enterprise SaaS revenue platforms, deferred revenue waterfall engines, ASC 606 / IFRS 15 contract accounting suites, Standalone Selling Price (SSP) allocation tools, and open-source financial ledgers.</strong>
+</p>
 
 ---
 
+</div>
+
+## 💰 Top Revenue Recognition & Accounting Software
+
+> 📊 A comprehensive, SEO-optimized directory of **Revenue Recognition, Revenue Accounting, Deferred Revenue, Contract Accounting, Subscription Billing, ASC 606, IFRS 15, SSP Allocation, Revenue Scheduling, and Revenue Automation platforms** — with a dedicated emphasis on **open-source and self-hosted alternatives**.
+
+Revenue recognition software automates the accounting treatment of customer contracts, subscriptions, invoices, performance obligations (POBs), deferred revenue waterfalls, contract modifications, standalone selling price (SSP) allocation, revenue schedules, automated journal entries, and financial audit reporting.
+
+This repository tracks commercial leaders (**Microsoft Dynamics 365, Oracle Revenue Management, NetSuite ARM, Salesforce Revenue Cloud, SAP RAR, Stripe Billing, Workday, Zuora, Chargebee RevRec, Maxio, Leapfin, Trullion**) alongside **open-source building blocks** (**Odoo, ERPNext, Hyperswitch, Lago, Polar, Kill Bill, OpenMeter, Firefly III, Invoice Ninja, Formance Ledger, OpenBooks**).
+
 ## 📑 Table of Contents
 
-* [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
-* [💻 Open-Source](#-open-source)
-
-  * [Direct Revenue Recognition / Accounting](#1-direct-revenue-recognition--accounting)
-  * [Open-Source ERP & Accounting](#2-open-source-erp--accounting)
-  * [Open-Source Billing & Monetization](#3-open-source-billing--monetization)
-  * [Revenue Recognition Engines & Projects](#4-revenue-recognition-engines--projects)
-  * [Invoicing & Receivables](#5-invoicing--receivables)
-  * [Data & Workflow Infrastructure](#6-data--workflow-infrastructure)
-  * [Analytics & Reporting](#7-analytics--reporting)
-  * [AI / Document Processing](#8-ai--document-processing)
+* [🏢 SaaS & Hosted RevRec Platforms](#-saashosted-platforms)
+* [💻 Open-Source Ecosystem](#-open-source)
+  * [1. Direct Revenue Recognition / Accounting](#1-direct-revenue-recognition--accounting)
+  * [2. Open-Source ERP & Accounting Ledgers](#2-open-source-erp--accounting)
+  * [3. Open-Source Billing & Monetization Engines](#3-open-source-billing--monetization)
+  * [4. Revenue Recognition Engines & Projects](#4-revenue-recognition-engines--projects)
+  * [5. Invoicing, Receivables & Financial Ledgers](#5-invoicing--receivables)
+  * [6. Data & Workflow Infrastructure](#6-data--workflow-infrastructure)
+  * [7. Analytics & Reporting](#7-analytics--reporting)
+  * [8. AI & Document Processing](#8-ai--document-processing)
 * [🔄 Commercial → Open-Source Mapping](#-commercial--open-source-mapping)
 * [🏗️ Reference Architectures](#️-reference-architectures)
 * [📊 Revenue Recognition Workflow](#-revenue-recognition-workflow)
@@ -42,7 +50,7 @@ This repository focuses particularly on companies looking for **open-source buil
 * [🔐 Security, Audit & Compliance](#-security-audit--compliance)
 * [📜 Licensing](#-licensing)
 * [🚀 Building a Self-Hosted Revenue Recognition Platform](#-building-a-self-hosted-revenue-recognition-platform)
-* [📈 Future Open-Source Opportunity](#-future-open-source-opportunity)
+* [📈 Star History](#-star-history)
 * [🤝 Contributing](#-contributing)
 * [⚠️ Disclaimer](#️-disclaimer)
 
@@ -100,564 +108,383 @@ These are commercial platforms that provide dedicated revenue-recognition, reven
 
 # 1. Direct Revenue Recognition / Accounting
 
-## 🥇 OpenBooks
+*Open-source platforms providing automated revenue recognition, deferred revenue scheduling, contract accounting, and general ledger journal entries, ranked by GitHub Star Count (descending).*
 
-**[OpenBooks](https://github.com/braedonsaunders/openbooks)**
+## 🥇 [Odoo Community](https://github.com/odoo/odoo) [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
 
-Open-source business/financial-management platform with unusually strong revenue-accounting functionality.
+Modular, full-stack open-source ERP with native double-entry accounting supporting automated deferred revenue models and recognition schedules.
 
-### Relevant capabilities
+### ⚡ Revenue capabilities
 
-* Revenue contracts
-* Performance obligations
-* Recognition schedules
-* Point-in-time recognition
-* Over-time recognition
-* Catch-up entries
-* Cancellation handling
-* Recurring invoicing
-* Subscription functionality
-* Journal entries
-* General ledger
-* Audit controls
-* ASC 606 / IFRS 15 conformance work
-* Standards-conformance testing
+* Deferred revenue models & periodic recognition
+* Day/month prorated revenue schedules
+* Automated GL journal entry generation
+* Multi-company & multi-currency accounting
+* Contract & subscription billing integration
+* Balance sheet deferred revenue liability tracking
+* Financial audit reports & general ledger
 
-> OpenBooks is particularly interesting for this repository because it is one of the few open-source projects explicitly incorporating **revenue contracts, performance obligations and recognition schedules** rather than merely providing invoicing.
-
-**GitHub:**
-https://github.com/braedonsaunders/openbooks
-
-**Status:** Alpha — evaluate carefully before production financial use.
+**GitHub:** https://github.com/odoo/odoo  
+**Best for:** Modular ERP-centric revenue accounting and contract lifecycle automation.
 
 ---
 
-## 🥈 Odoo Community
+## 🥈 [ERPNext](https://github.com/frappe/erpnext) [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
 
-**[Odoo](https://github.com/odoo/odoo)**
+Comprehensive Python/Frappe open-source ERP featuring dedicated deferred revenue workflows, performance period schedules, and accounting automation.
 
-Odoo Community provides accounting functionality and supports deferred revenue schedules.
+### ⚡ Revenue capabilities
 
-### Revenue capabilities
+* Deferred revenue & deferred expense schedules
+* Service date range allocation (day-based or month-based)
+* Automated background recognition posting
+* Sales invoice & subscription integration
+* Contract asset and contract liability ledgering
+* Accounts receivable (AR) and payment reconciliations
+* REST API & webhooks for external billing systems
 
-* Deferred revenue
-* Revenue models
-* Revenue schedules
-* Automatic journal entries
-* Periodic recognition
-* Prorated recognition
-* Deferred revenue reporting
-* Multi-company accounting
-* Invoicing
-* Contracts
-* Subscriptions through relevant modules
-* General ledger
-
-Odoo's accounting documentation explicitly supports spreading deferred revenue across future periods and generating recognition entries automatically.
-
-**GitHub:**
-https://github.com/odoo/odoo
-
-**Best for:** ERP-centric revenue recognition.
+**GitHub:** https://github.com/frappe/erpnext  
+**Best for:** End-to-end open-source subscription and deferred revenue management.
 
 ---
 
-## 🥉 ERPNext
+## 🥉 [Dolibarr](https://github.com/Dolibarr/dolibarr) [![Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)
 
-**[ERPNext](https://github.com/frappe/erpnext)**
+Mature PHP-based open-source ERP/CRM platform providing double-entry accounting, customer contracts, and recurring invoice scheduling.
 
-ERPNext is a fully open-source ERP with accounting and deferred-revenue functionality.
+### ⚡ Revenue capabilities
 
-### Relevant capabilities
+* Recurring service contracts & billing schedules
+* Double-entry bookkeeping & chart of accounts
+* Customer invoices, payments, and credit notes
+* Extensible financial reporting and accounting export
+* Modular REST API for external RevRec calculators
 
-* Deferred revenue
-* Service periods
-* Day/month-based allocation
-* Automated recognition
-* Journal entries
-* General ledger
-* Sales invoices
-* Subscriptions
-* Accounts receivable
-* Multi-company accounting
-* Financial reporting
-* REST API
-
-ERPNext documentation provides a dedicated deferred-revenue workflow with service dates, deferred-revenue liabilities and automated recognition.
-
-**GitHub:**
-https://github.com/frappe/erpnext
+**GitHub:** https://github.com/Dolibarr/dolibarr  
+**Best for:** Lightweight accounting foundation for SMB and custom billing architectures.
 
 ---
 
-## Tryton
+## 🌟 [Tryton](https://github.com/tryton/tryton) [![Stars](https://img.shields.io/github/stars/tryton/tryton?style=social&color=white)](https://github.com/tryton/tryton/stargazers)
 
-**[Tryton](https://github.com/tryton/tryton)**
+Highly modular, Python-powered enterprise accounting and ERP framework engineered for precision bookkeeping.
 
-Modular open-source ERP platform with a strong accounting foundation.
+### ⚡ Relevant components
 
-### Relevant components
+* Double-entry bookkeeping with strict audit controls
+* Multi-currency accounts receivable & general ledger
+* Invoicing, contract schedules, and tax rules
+* Modular architecture ideal for custom ASC 606 rule modules
 
-* Double-entry accounting
-* General ledger
-* Accounts receivable
-* Accounts payable
-* Sales
-* Invoicing
-* Financial reporting
-* Modular accounting extensions
-
-**GitHub:**
-https://github.com/tryton/tryton
+**GitHub:** https://github.com/tryton/tryton  
+**Best for:** Developers building strictly compliant custom financial backends.
 
 ---
 
-## Dolibarr
+## 🌟 [OpenBooks](https://github.com/braedonsaunders/openbooks) [![Stars](https://img.shields.io/github/stars/braedonsaunders/openbooks?style=social&color=white)](https://github.com/braedonsaunders/openbooks/stargazers)
 
-**[Dolibarr](https://github.com/Dolibarr/dolibarr)**
+Open-source financial management platform purpose-built around modern revenue-contract accounting and ASC 606 / IFRS 15 compliance.
 
-Open-source ERP/CRM platform useful as the accounting and invoicing layer in a custom RevRec architecture.
+### ⚡ Relevant capabilities
 
-### Relevant capabilities
+* Multi-obligation revenue contracts
+* Performance obligations (POBs) tracking
+* Point-in-time & over-time recognition schedules
+* Cumulative catch-up adjustments upon contract modification
+* Cancellation, returns, and refund liability handling
+* Double-entry general ledger posting
+* Automated ASC 606 conformance testing suite
 
-* Accounting
-* Invoicing
-* Orders
-* Contracts
-* Recurring services
-* Payments
-* Financial reporting
-* APIs
-* Extensible modules
-
-**GitHub:**
-https://github.com/Dolibarr/dolibarr
+**GitHub:** https://github.com/braedonsaunders/openbooks  
+**Status:** Alpha — evaluate carefully for production financial workflows.
 
 ---
 
 # 2. Open-Source ERP & Accounting
 
-These platforms can form the **general-ledger/accounting layer** beneath a custom revenue-recognition engine.
+These platforms form the **general-ledger / accounting foundation** beneath a custom revenue-recognition and deferred-schedule engine, ranked by GitHub Star Count (descending).
 
-| Project                                                          | Accounting | Invoicing | Contracts | RevRec Potential | License    |
-| ---------------------------------------------------------------- | ---------: | --------: | --------: | ---------------: | ---------- |
-| [ERPNext](https://github.com/frappe/erpnext)                     |          ✅ |         ✅ |         ✅ |             ⭐⭐⭐⭐ | GPL        |
-| [Odoo Community](https://github.com/odoo/odoo)                   |          ✅ |         ✅ |         ✅ |             ⭐⭐⭐⭐ | LGPL       |
-| [Tryton](https://github.com/tryton/tryton)                       |          ✅ |         ✅ |         ✅ |              ⭐⭐⭐ | GPL        |
-| [Dolibarr](https://github.com/Dolibarr/dolibarr)                 |          ✅ |         ✅ |         ✅ |              ⭐⭐⭐ | GPL        |
-| [Apache OFBiz](https://github.com/apache/ofbiz-framework)        |          ✅ |         ✅ |         ✅ |              ⭐⭐⭐ | Apache-2.0 |
-| [ERP5](https://www.erp5.com/)                                    |          ✅ |         ✅ |         ✅ |              ⭐⭐⭐ | GPL        |
-| [iDempiere](https://github.com/idempiere/idempiere)              |          ✅ |         ✅ |         ✅ |              ⭐⭐⭐ | GPL        |
-| [ADempiere](https://github.com/adempiere/adempiere)              |          ✅ |         ✅ |         ✅ |              ⭐⭐⭐ | GPL        |
-| [metasfresh](https://github.com/metasfresh/metasfresh)           |          ✅ |         ✅ |         ✅ |              ⭐⭐⭐ | GPL        |
-| [Axelor Open Suite](https://github.com/axelor/axelor-open-suite) |          ✅ |         ✅ |         ✅ |              ⭐⭐⭐ | AGPL       |
-| [LedgerSMB](https://github.com/ledgersmb/LedgerSMB)              |          ✅ |         ✅ |   Limited |               ⭐⭐ | GPL        |
-| [FrontAccounting](https://github.com/FrontAccountingERP/FA)      |          ✅ |         ✅ |   Limited |               ⭐⭐ | GPL        |
-| [GnuCash](https://github.com/Gnucash/gnucash)                    |          ✅ |   Limited |   Limited |                ⭐ | GPL        |
+| Project | GitHub Stars | Accounting | Invoicing | Contracts | RevRec Capability | License |
+| :--- | :--- | :---: | :---: | :---: | :---: | :--- |
+| **[Odoo Community](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐⭐ | LGPL-3.0 |
+| **[ERPNext](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐⭐ | GPL-3.0 |
+| **[Dolibarr](https://github.com/Dolibarr/dolibarr)** | [![Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐ | GPL-3.0 |
+| **[GnuCash](https://github.com/Gnucash/gnucash)** | [![Stars](https://img.shields.io/github/stars/Gnucash/gnucash?style=social&color=white)](https://github.com/Gnucash/gnucash/stargazers) | ✅ | Limited | Limited | ⭐ | GPL-2.0 |
+| **[metasfresh](https://github.com/metasfresh/metasfresh)** | [![Stars](https://img.shields.io/github/stars/metasfresh/metasfresh?style=social&color=white)](https://github.com/metasfresh/metasfresh/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐ | GPL-2.0 |
+| **[Apache OFBiz](https://github.com/apache/ofbiz-framework)** | [![Stars](https://img.shields.io/github/stars/apache/ofbiz-framework?style=social&color=white)](https://github.com/apache/ofbiz-framework/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐ | Apache-2.0 |
+| **[Axelor Open Suite](https://github.com/axelor/axelor-open-suite)** | [![Stars](https://img.shields.io/github/stars/axelor/axelor-open-suite?style=social&color=white)](https://github.com/axelor/axelor-open-suite/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐ | AGPL-3.0 |
+| **[ADempiere](https://github.com/adempiere/adempiere)** | [![Stars](https://img.shields.io/github/stars/adempiere/adempiere?style=social&color=white)](https://github.com/adempiere/adempiere/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐ | GPL-2.0 |
+| **[iDempiere](https://github.com/idempiere/idempiere)** | [![Stars](https://img.shields.io/github/stars/idempiere/idempiere?style=social&color=white)](https://github.com/idempiere/idempiere/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐ | GPL-2.0 |
+| **[LedgerSMB](https://github.com/ledgersmb/LedgerSMB)** | [![Stars](https://img.shields.io/github/stars/ledgersmb/LedgerSMB?style=social&color=white)](https://github.com/ledgersmb/LedgerSMB/stargazers) | ✅ | ✅ | Limited | ⭐⭐ | GPL-2.0 |
+| **[Tryton](https://github.com/tryton/tryton)** | [![Stars](https://img.shields.io/github/stars/tryton/tryton?style=social&color=white)](https://github.com/tryton/tryton/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐ | GPL-3.0 |
+| **[FrontAccounting](https://github.com/FrontAccountingERP/FA)** | [![Stars](https://img.shields.io/github/stars/FrontAccountingERP/FA?style=social&color=white)](https://github.com/FrontAccountingERP/FA/stargazers) | ✅ | ✅ | Limited | ⭐⭐ | GPL-3.0 |
+| **[Nexedi ERP5](https://www.erp5.com/)** | — | ✅ | ✅ | ✅ | ⭐⭐⭐ | GPL-3.0 |
 
 ---
 
 # 3. Open-Source Billing & Monetization
 
-Billing is one of the most important inputs into a revenue-recognition system.
+Billing engines supply the critical operational data feeding a RevRec engine: subscriptions, usage events, multi-tier pricing, invoices, credits, and cancellations. Ranked by GitHub Star Count (descending).
 
-These projects can supply:
+## 🌟 [Hyperswitch](https://github.com/juspay/hyperswitch) [![Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers)
 
-* Customers
-* Contracts
-* Products
-* Subscriptions
-* Usage
-* Prices
-* Discounts
-* Invoices
-* Credit notes
-* Payments
-* Billing events
+High-performance, open-source financial payment router and orchestration platform written in Rust.
 
-## Kill Bill
+### ⚡ Features
+* Multi-processor smart routing & failover
+* Unified payment API across 50+ gateways
+* Global payment methods (Cards, Wallets, Real-Time Rails)
+* Reduced transaction fees and elevated conversion rates
 
-**[Kill Bill](https://github.com/killbill/killbill)**
-
-One of the most mature open-source subscription-billing platforms.
-
-### Features
-
-* Subscription billing
-* Recurring billing
-* Usage billing
-* Invoices
-* Payments
-* Credits
-* Billing events
-* APIs
-* Plugin architecture
-* Financial reporting
-* Extensible business logic
-
-**License:** Apache-2.0
-
-Kill Bill is particularly useful as the **billing/event source** feeding a custom revenue-recognition engine.
+**License:** Apache-2.0 | **GitHub:** https://github.com/juspay/hyperswitch
 
 ---
 
-## Lago
+## 🌟 [Medusa](https://github.com/medusajs/medusa) [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)
 
-**[Lago](https://github.com/getlago/lago)**
+Modular, headless digital commerce and monetization platform built with Node.js and TypeScript.
 
-Open-source metering and usage-based billing platform.
+### ⚡ Features
+* Subscription workflows and recurring billing modules
+* Multi-currency product catalogs & tax calculations
+* Flexible promotion engines, coupons, and customer portals
+* Event-driven architecture with Redis / PostgreSQL
 
-### Features
-
-* Usage metering
-* Subscription billing
-* Hybrid pricing
-* Usage-based pricing
-* Invoicing
-* Coupons
-* Add-ons
-* Prepaid credits
-* Billing APIs
-* Self-hosting
-
-**License:** AGPL-3.0
-
-**GitHub:**
-https://github.com/getlago/lago
+**License:** MIT | **GitHub:** https://github.com/medusajs/medusa
 
 ---
 
-## OpenMeter
+## 🌟 [Lago](https://github.com/getlago/lago) [![Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers)
 
-**[OpenMeter](https://github.com/openmeterio/openmeter)**
+Open-source metering and usage-based billing infrastructure built for modern SaaS.
 
-Open-source metering and billing infrastructure particularly suited to:
+### ⚡ Features
+* High-volume consumption metering & usage aggregation
+* Complex hybrid subscription models (flat fee + per-unit)
+* Prepaid credits, minimum spend commitments, and coupons
+* Automated invoicing and real-time billing webhooks
 
-* AI
-* APIs
-* DevTools
-* Usage-based SaaS
-* Consumption billing
-
-### Features
-
-* Real-time metering
-* CloudEvents
-* Usage aggregation
-* Product catalog
-* Subscription management
-* Usage-based billing
-* Credits
-* Entitlements
-* Invoice generation
-* Webhooks
-* API/SDK integration
-
-**License:** Apache-2.0
-
-**GitHub:**
-https://github.com/openmeterio/openmeter
+**License:** AGPL-3.0 | **GitHub:** https://github.com/getlago/lago
 
 ---
 
-## Meteroid
+## 🌟 [Polar](https://github.com/polarsource/polar) [![Stars](https://img.shields.io/github/stars/polarsource/polar?style=social&color=white)](https://github.com/polarsource/polar/stargazers)
 
-**[Meteroid](https://github.com/meteroid-oss/meteroid)**
+Open-source developer monetization platform for SaaS, API subscriptions, and digital products.
 
-Open-source pricing and billing infrastructure.
+### ⚡ Features
+* Tiered subscription plans, pay-what-you-want, and usage meters
+* Built-in customer checkout, license key generation, and webhooks
+* Merchant of Record (MoR) and self-hosted direct integration modes
+* Fast modern UI and developer-first APIs
 
-### Features
-
-* Usage metering
-* Pricing
-* Subscription management
-* Quotes
-* Invoicing
-* Credit notes
-* Usage-based billing
-* Hybrid pricing
-* Customer portal
-* Billing analytics
-* Accounting integrations
-
-**License:** AGPL-3.0
+**License:** Apache-2.0 | **GitHub:** https://github.com/polarsource/polar
 
 ---
 
-## Other Open-Source Billing Platforms
+## 🌟 [Kill Bill](https://github.com/killbill/killbill) [![Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers)
 
-| Project                                                      | Primary Role                   |
-| ------------------------------------------------------------ | ------------------------------ |
-| [Kill Bill](https://github.com/killbill/killbill)            | Subscription billing           |
-| [Lago](https://github.com/getlago/lago)                      | Usage-based billing            |
-| [OpenMeter](https://github.com/openmeterio/openmeter)        | Metering + billing             |
-| [Meteroid](https://github.com/meteroid-oss/meteroid)         | Monetization + billing         |
-| [Apache OFBiz](https://github.com/apache/ofbiz-framework)    | ERP + order/billing            |
-| [ERPNext](https://github.com/frappe/erpnext)                 | ERP + subscriptions/accounting |
-| [Odoo](https://github.com/odoo/odoo)                         | ERP + subscriptions/accounting |
-| [Dolibarr](https://github.com/Dolibarr/dolibarr)             | ERP + invoicing                |
-| [InvoiceShelf](https://github.com/InvoiceShelf/InvoiceShelf) | Invoicing                      |
-| [Akaunting](https://github.com/akaunting/akaunting)          | Accounting + invoicing         |
-| [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) | Invoicing                      |
-| [Crater](https://github.com/crater-invoice-inc/crater)       | Invoicing                      |
-| [Solidus](https://github.com/solidusio/solidus)              | Commerce                       |
-| [Saleor](https://github.com/saleor/saleor)                   | Commerce                       |
-| [Medusa](https://github.com/medusajs/medusa)                 | Commerce                       |
+Enterprise-grade open-source subscription billing and payments management platform.
+
+### ⚡ Features
+* Complex subscription lifecycle and dunning management
+* Add-ons, plan transitions, proration, and trial handling
+* Extensible plugin architecture (custom tax, payment gateways, analytics)
+* Real-time billing bus event streaming
+
+**License:** Apache-2.0 | **GitHub:** https://github.com/killbill/killbill
+
+---
+
+## 🌟 [OpenMeter](https://github.com/openmeterio/openmeter) [![Stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers)
+
+Cloud-native open-source metering infrastructure designed for AI, API, and consumption-based products.
+
+### ⚡ Features
+* Sub-millisecond CloudEvents ingestion pipeline
+* Real-time usage aggregation windowing with ClickHouse
+* Entitlements enforcement and prepaid credit balance tracking
+* Native integration with Stripe Billing and custom ledger workflows
+
+**License:** Apache-2.0 | **GitHub:** https://github.com/openmeterio/openmeter
+
+---
+
+## 🌟 [Meteroid](https://github.com/meteroid-oss/meteroid) [![Stars](https://img.shields.io/github/stars/meteroid-oss/meteroid?style=social&color=white)](https://github.com/meteroid-oss/meteroid/stargazers)
+
+Open-source pricing and monetization platform supporting usage-based billing and customer quoting.
+
+### ⚡ Features
+* Real-time usage event metering
+* Multi-dimensional pricing matrices & hybrid subscriptions
+* Quoting, invoicing, and credit notes management
+* Accounting sync hooks
+
+**License:** AGPL-3.0 | **GitHub:** https://github.com/meteroid-oss/meteroid
+
+---
+
+## 📊 Comprehensive Billing & Monetization Comparison
+
+| Project | GitHub Stars | Primary Role | License |
+| :--- | :--- | :--- | :--- |
+| **[Hyperswitch](https://github.com/juspay/hyperswitch)** | [![Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers) | Payment orchestration switch & multi-rail routing | Apache-2.0 |
+| **[Medusa](https://github.com/medusajs/medusa)** | [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Headless commerce, subscription & digital checkout | MIT |
+| **[Saleor](https://github.com/saleor/saleor)** | [![Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers) | High-scale GraphQL commerce & monetization | BSD-3-Clause |
+| **[Lago](https://github.com/getlago/lago)** | [![Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Usage-based metering & hybrid subscription billing | AGPL-3.0 |
+| **[Polar](https://github.com/polarsource/polar)** | [![Stars](https://img.shields.io/github/stars/polarsource/polar?style=social&color=white)](https://github.com/polarsource/polar/stargazers) | Developer monetization, subscriptions & licensing | Apache-2.0 |
+| **[Kill Bill](https://github.com/killbill/killbill)** | [![Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Enterprise recurring billing & subscription state machine | Apache-2.0 |
+| **[Solidus](https://github.com/solidusio/solidus)** | [![Stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers) | Modular Ruby on Rails commerce framework | BSD-3-Clause |
+| **[OpenMeter](https://github.com/openmeterio/openmeter)** | [![Stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers) | Real-time CloudEvents usage metering & consumption pipeline | Apache-2.0 |
+| **[Meteroid](https://github.com/meteroid-oss/meteroid)** | [![Stars](https://img.shields.io/github/stars/meteroid-oss/meteroid?style=social&color=white)](https://github.com/meteroid-oss/meteroid/stargazers) | Usage monetization, pricing schemes & invoicing | AGPL-3.0 |
+| **[Tier](https://github.com/tierrun/tier)** | [![Stars](https://img.shields.io/github/stars/tierrun/tier?style=social&color=white)](https://github.com/tierrun/tier/stargazers) | Pricing and entitlement SDK for software SaaS | BSD-3-Clause |
 
 ---
 
 # 4. Revenue Recognition Engines & Projects
 
-A smaller but strategically important category is **actual revenue-recognition calculation code**.
+Dedicated open-source calculation code, reference implementations, and accounting rules for ASC 606 and IFRS 15. Ranked by GitHub Star Count (descending).
 
-## OpenBooks Revenue Engine
+## 🌟 [OpenAccountants](https://github.com/openaccountants/openaccountants) [![Stars](https://img.shields.io/github/stars/openaccountants/openaccountants?style=social&color=white)](https://github.com/openaccountants/openaccountants/stargazers)
 
-The OpenBooks project is notable because its accounting model explicitly includes:
+Open-source financial knowledge base and rule automation repository covering international accounting standards.
 
-* Revenue contracts
-* Performance obligations
-* Recognition schedules
-* Point-in-time recognition
-* Over-time recognition
-* Catch-up accounting
-* Cancellation handling
-* ASC 606 / IFRS 15 conformance tests
+### ⚡ Capabilities & Rules
+* Performance obligation identification
+* Transaction price allocation based on Standalone Selling Price (SSP)
+* Variable consideration & constraint calculations
+* Contract modifications (prospective vs. cumulative catch-up)
+* Contract asset, contract liability, and refund liability formulas
 
-**Repository:**
-https://github.com/braedonsaunders/openbooks
+**GitHub:** https://github.com/openaccountants/openaccountants
 
 ---
 
-## Revenue Recognition — C#
+## 🌟 [OpenBooks Revenue Engine](https://github.com/braedonsaunders/openbooks) [![Stars](https://img.shields.io/github/stars/braedonsaunders/openbooks?style=social&color=white)](https://github.com/braedonsaunders/openbooks/stargazers)
 
-**[jonsb/revenue-recognition](https://github.com/jonsb/revenue-recognition)**
+The core RevRec engine implementation from the OpenBooks project.
 
-A C# implementation based on revenue-recognition examples from Martin Fowler's *Patterns of Enterprise Application Architecture*.
+### ⚡ Capabilities
+* Multi-period recognition schedules
+* Point-in-time vs. over-time milestone completion
+* Automated journal entry generator
+* Standards conformance validation test suite
 
-Useful primarily as:
-
-* Educational material
-* Domain-model reference
-* Revenue-recognition logic example
-* Software architecture reference
-
-It should **not** be treated as a production ASC 606 engine.
+**GitHub:** https://github.com/braedonsaunders/openbooks
 
 ---
 
-## OpenAccountants
+## 🌟 [Revenue Recognition — C#](https://github.com/jonsb/revenue-recognition) [![Stars](https://img.shields.io/github/stars/jonsb/revenue-recognition?style=social&color=white)](https://github.com/jonsb/revenue-recognition/stargazers)
 
-**[OpenAccountants](https://github.com/openaccountants/openaccountants)**
+C# implementation of enterprise revenue recognition domain models based on Martin Fowler's *Patterns of Enterprise Application Architecture*.
 
-Open accounting knowledge and automation project containing financial-reporting material covering:
+### ⚡ Capabilities
+* Three-way contract revenue distribution models
+* Domain logic for time-based amortization
+* Software architecture reference for financial state machines
 
-* IFRS 15
-* ASC 606
-* Performance obligations
-* Variable consideration
-* Contract modifications
-* Contract assets
-* Contract liabilities
-* Refund liabilities
-
-Useful as a **knowledge/policy layer** for a custom RevRec engine.
+**GitHub:** https://github.com/jonsb/revenue-recognition
 
 ---
 
-# 5. Invoicing & Receivables
+# 5. Invoicing, Receivables & Ledgers
 
-These projects are useful when the objective is to build an end-to-end open-source revenue stack.
+Invoicing platforms, double-entry tracking suites, and programmable financial ledgers that provide AR transactions and customer balances. Ranked by GitHub Star Count (descending).
 
-## InvoiceShelf
-
-**[InvoiceShelf](https://github.com/InvoiceShelf/InvoiceShelf)**
-
-Open-source invoicing platform.
-
-### Features
-
-* Invoices
-* Estimates
-* Customers
-* Payments
-* Expenses
-* Recurring invoices
-* REST/API capabilities
-* Self-hosting
-
-**License:** AGPL-3.0
-
----
-
-## Akaunting
-
-**[Akaunting](https://github.com/akaunting/akaunting)**
-
-Open-source accounting and invoicing platform.
-
-### Useful components
-
-* Accounting
-* Invoicing
-* Payments
-* Expenses
-* Customers
-* Vendors
-* Financial reports
-* REST API
-* Modular architecture
-
----
-
-## InvoicePlane
-
-**[InvoicePlane](https://github.com/InvoicePlane/InvoicePlane)**
-
-Self-hosted invoicing platform suitable as a lightweight billing source.
-
----
-
-## Crater
-
-**[Crater](https://github.com/crater-invoice-inc/crater)**
-
-Open-source invoicing application useful for smaller implementations.
+| Project | GitHub Stars | Primary Capability | Tech Stack | License |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Firefly III](https://github.com/firefly-iii/firefly-iii)** | [![Stars](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers) | Double-entry financial bookkeeping & balance tracking | PHP / Laravel | AGPL-3.0 |
+| **[Akaunting](https://github.com/akaunting/akaunting)** | [![Stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers) | Small business invoicing, payments & accounting | PHP / Laravel | GPL-3.0 |
+| **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** | [![Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers) | Professional invoicing, recurring payments & client portal | PHP / Flutter | AGPL-3.0 |
+| **[Crater](https://github.com/crater-invoice-inc/crater)** | [![Stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers) | Modern invoicing and expense tracking platform | PHP / Vue | AGPL-3.0 |
+| **[BigCapital](https://github.com/bigcapitalhq/bigcapital)** | [![Stars](https://img.shields.io/github/stars/bigcapitalhq/bigcapital?style=social&color=white)](https://github.com/bigcapitalhq/bigcapital/stargazers) | Double-entry accounting, customer billing & financial reporting | TypeScript / Node | AGPL-3.0 |
+| **[InvoicePlane](https://github.com/InvoicePlane/InvoicePlane)** | [![Stars](https://img.shields.io/github/stars/InvoicePlane/InvoicePlane?style=social&color=white)](https://github.com/InvoicePlane/InvoicePlane/stargazers) | Lightweight self-hosted invoicing & client management | PHP | MIT |
+| **[InvoiceShelf](https://github.com/InvoiceShelf/InvoiceShelf)** | [![Stars](https://img.shields.io/github/stars/InvoiceShelf/InvoiceShelf?style=social&color=white)](https://github.com/InvoiceShelf/InvoiceShelf/stargazers) | Modern self-hosted invoicing and billing portal | PHP / Vue | AGPL-3.0 |
+| **[Formance Ledger](https://github.com/formancehq/ledger)** | [![Stars](https://img.shields.io/github/stars/formancehq/ledger?style=social&color=white)](https://github.com/formancehq/ledger/stargazers) | Programmable multi-asset ledger for money movement & revenue flows | Go | Apache-2.0 |
+| **[Midaz](https://github.com/lerianstudio/midaz)** | [![Stars](https://img.shields.io/github/stars/lerianstudio/midaz?style=social&color=white)](https://github.com/lerianstudio/midaz/stargazers) | High-scale transaction ledger & accounting ledger engine | Go | Apache-2.0 |
+| **[GOBL (Invopop)](https://github.com/invopop/gobl)** | [![Stars](https://img.shields.io/github/stars/invopop/gobl?style=social&color=white)](https://github.com/invopop/gobl/stargazers) | Global Open Business Language: JSON electronic invoice schemas | Go | Apache-2.0 |
 
 ---
 
 # 6. Data & Workflow Infrastructure
 
-A production-grade open-source RevRec system normally needs a data and orchestration layer.
+A production-grade RevRec platform requires resilient workflow orchestration, high-integrity financial databases, and streaming pipelines. Ranked by GitHub Star Count (descending).
 
-## Workflow
+## ⚙️ Workflow Orchestration
 
-| Project                                               | Role                        |
-| ----------------------------------------------------- | --------------------------- |
-| [n8n](https://github.com/n8n-io/n8n)                  | Workflow automation         |
-| [Node-RED](https://github.com/node-red/node-red)      | Event workflows             |
-| [Windmill](https://github.com/windmill-labs/windmill) | Developer workflows         |
-| [Temporal](https://github.com/temporalio/temporal)    | Durable workflows           |
-| [Kestra](https://github.com/kestra-io/kestra)         | Data/workflow orchestration |
-| [Apache Airflow](https://github.com/apache/airflow)   | Data pipelines              |
-| [Dagster](https://github.com/dagster-io/dagster)      | Data orchestration          |
-| [Prefect](https://github.com/PrefectHQ/prefect)       | Workflow orchestration      |
-
----
-
-## Databases
-
-| Project                                                | Role                       |
-| ------------------------------------------------------ | -------------------------- |
-| [PostgreSQL](https://github.com/postgres/postgres)     | Primary financial database |
-| [MySQL](https://github.com/mysql/mysql-server)         | Transaction database       |
-| [MariaDB](https://github.com/MariaDB/server)           | Open relational DB         |
-| [ClickHouse](https://github.com/ClickHouse/ClickHouse) | Revenue analytics          |
-| [DuckDB](https://github.com/duckdb/duckdb)             | Embedded analytics         |
-| [SQLite](https://github.com/sqlite/sqlite)             | Lightweight storage        |
-| [Redis](https://github.com/redis/redis)                | Cache/event support        |
+| Project | GitHub Stars | Architectural Role in RevRec |
+| :--- | :--- | :--- |
+| **[n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Visual integration workflows connecting CRM, Billing, and Ledgers |
+| **[Apache Airflow](https://github.com/apache/airflow)** | [![Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) | Scheduled batch RevRec calculation DAGs, waterfalls & reconciliation |
+| **[Kestra](https://github.com/kestra-io/kestra)** | [![Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | Declarative event-driven data orchestrator for financial pipelines |
+| **[Prefect](https://github.com/PrefectHQ/prefect)** | [![Stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers) | Pythonic dataflow automation for nightly deferred revenue amortization |
+| **[Node-RED](https://github.com/node-red/node-red)** | [![Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | Real-time event routing for webhook ingestion |
+| **[Temporal](https://github.com/temporalio/temporal)** | [![Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | Resilient, distributed state machines for multi-month contract lifecycle |
+| **[Windmill](https://github.com/windmill-labs/windmill)** | [![Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) | High-performance developer workflows, scripts, and internal finance apps |
+| **[Dagster](https://github.com/dagster-io/dagster)** | [![Stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers) | Asset-based data orchestrator tracking financial data lineage |
 
 ---
 
-## Event Streaming
+## 🗄️ Financial Databases
 
-| Project                                                 | Role                       |
-| ------------------------------------------------------- | -------------------------- |
-| [Apache Kafka](https://github.com/apache/kafka)         | Revenue event streaming    |
-| [Apache Pulsar](https://github.com/apache/pulsar)       | Event streaming            |
-| [NATS](https://github.com/nats-io/nats-server)          | Lightweight messaging      |
-| [Redpanda](https://github.com/redpanda-data/redpanda)   | Kafka-compatible streaming |
-| [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server) | Messaging                  |
+| Project | GitHub Stars | Storage Role in RevRec |
+| :--- | :--- | :--- |
+| **[Redis](https://github.com/redis/redis)** | [![Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers) | High-speed cache for entitlement states and real-time usage meters |
+| **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | [![Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) | Ultra-fast column store for raw metering events and revenue waterfall analytics |
+| **[DuckDB](https://github.com/duckdb/duckdb)** | [![Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers) | Embedded OLAP analytics for in-process financial reporting and modeling |
+| **[PostgreSQL](https://github.com/postgres/postgres)** | [![Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers) | ACID-compliant primary financial database for contracts, schedules, and GL |
+| **[MySQL](https://github.com/mysql/mysql-server)** | [![Stars](https://img.shields.io/github/stars/mysql/mysql-server?style=social&color=white)](https://github.com/mysql/mysql-server/stargazers) | High-volume relational transaction storage |
+| **[SQLite](https://github.com/sqlite/sqlite)** | [![Stars](https://img.shields.io/github/stars/sqlite/sqlite?style=social&color=white)](https://github.com/sqlite/sqlite/stargazers) | Embedded lightweight storage for local testing and micro-engines |
+| **[MariaDB](https://github.com/MariaDB/server)** | [![Stars](https://img.shields.io/github/stars/MariaDB/server?style=social&color=white)](https://github.com/MariaDB/server/stargazers) | Enterprise open relational database |
+
+---
+
+## ⚡ Event Streaming
+
+| Project | GitHub Stars | Streaming Role in RevRec |
+| :--- | :--- | :--- |
+| **[Apache Kafka](https://github.com/apache/kafka)** | [![Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Enterprise event streaming backbone for billing events and journal changes |
+| **[NATS](https://github.com/nats-io/nats-server)** | [![Stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers) | Ultra-low latency cloud-native pub/sub for real-time usage meters |
+| **[Apache Pulsar](https://github.com/apache/pulsar)** | [![Stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers) | Multi-tenant event streaming with tiered offload storage |
+| **[RabbitMQ](https://github.com/rabbitmq/rabbitmq-server)** | [![Stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers) | Message broker for reliable asynchronous accounting task queues |
+| **[Redpanda](https://github.com/redpanda-data/redpanda)** | [![Stars](https://img.shields.io/github/stars/redpanda-data/redpanda?style=social&color=white)](https://github.com/redpanda-data/redpanda/stargazers) | C++ Kafka-compatible streaming engine with zero JVM overhead |
 
 ---
 
 # 7. Analytics & Reporting
 
-A self-hosted RevRec platform requires strong reporting for:
+A robust RevRec platform requires deep reporting for deferred revenue waterfalls, contract liabilities, cohort ARR, remaining performance obligations (RPO), and audit reconciliation. Ranked by GitHub Star Count (descending).
 
-* Deferred revenue
-* Recognized revenue
-* Contract liabilities
-* Revenue waterfall
-* Remaining performance obligations
-* Monthly recurring revenue
-* ARR
-* Cohort revenue
-* Revenue by product
-* Revenue by contract
-* Revenue by entity
-* Revenue by geography
-* Revenue forecast
-* Audit reconciliation
-
-## Metabase
-
-**[Metabase](https://github.com/metabase/metabase)**
-
-Excellent for finance dashboards and operational RevRec reporting.
+| Project | GitHub Stars | Reporting & Analytics Role |
+| :--- | :--- | :--- |
+| **[Grafana](https://github.com/grafana/grafana)** | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | Real-time financial operational monitoring, event throughput & audit metrics |
+| **[Apache Superset](https://github.com/apache/superset)** | [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | Enterprise BI exploration, deferred revenue waterfall charts & SQL queries |
+| **[Metabase](https://github.com/metabase/metabase)** | [![Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | Intuitive business dashboards for revenue by product, customer, and cohort |
+| **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | [![Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) | Real-time analytics engine backing multi-million row revenue queries |
+| **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** | [![Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Full-text searchable audit log trails, compliance histories & event archives |
+| **[Apache Pinot](https://github.com/apache/pinot)** | [![Stars](https://img.shields.io/github/stars/apache/pinot?style=social&color=white)](https://github.com/apache/pinot/stargazers) | Real-time distributed OLAP datastore for immediate revenue event analytics |
 
 ---
 
-## Apache Superset
+# 8. AI & Document Processing
 
-**[Apache Superset](https://github.com/apache/superset)**
+AI, OCR, and Document Vision models extract contractual terms (customer, dates, products, discounts, termination clauses, performance obligations) before feeding into the RevRec accounting engine. Ranked by GitHub Star Count (descending).
 
-Powerful open-source BI platform.
-
----
-
-## Grafana
-
-**[Grafana](https://github.com/grafana/grafana)**
-
-Useful for:
-
-* Revenue pipelines
-* Data freshness
-* Processing monitoring
-* Recognition-job monitoring
-* System observability
-
----
-
-## Apache Pinot
-
-**[Apache Pinot](https://github.com/apache/pinot)**
-
-Useful for high-volume revenue analytics.
-
----
-
-## OpenSearch
-
-**[OpenSearch](https://github.com/opensearch-project/OpenSearch)**
-
-Useful for searchable financial events, audit logs and operational analytics.
-
----
-
-# 8. AI / Document Processing
-
-AI can be used to extract contractual information before the RevRec engine determines accounting treatment.
-
-## OCR
-
-* [Tesseract](https://github.com/tesseract-ocr/tesseract)
-* [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
-* [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)
-
-## Computer Vision
-
-* [OpenCV](https://github.com/opencv/opencv)
-* [Open3D](https://github.com/isl-org/Open3D)
-
-## AI / LLM
-
-* [Ollama](https://github.com/ollama/ollama)
-* [vLLM](https://github.com/vllm-project/vllm)
-* [llama.cpp](https://github.com/ggml-org/llama.cpp)
-* [Hugging Face Transformers](https://github.com/huggingface/transformers)
-* [LangChain](https://github.com/langchain-ai/langchain)
-* [LlamaIndex](https://github.com/run-llama/llama_index)
+| Project | GitHub Stars | Category | Role in Contract Revenue Ingestion |
+| :--- | :--- | :--- | :--- |
+| **[Ollama](https://github.com/ollama/ollama)** | [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | LLM Runtime | Local inference runtime for private on-premises contract parsing |
+| **[Transformers](https://github.com/huggingface/transformers)** | [![Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers) | ML Framework | State-of-the-art NLP models for legal clause classification & extraction |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | [![Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) | Agent Framework | Orchestrating multi-step contract review & validation agent pipelines |
+| **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | [![Stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=social&color=white)](https://github.com/ggml-org/llama.cpp/stargazers) | Inference Engine | High-speed C/C++ local model execution for contract token analysis |
+| **[vLLM](https://github.com/vllm-project/vllm)** | [![Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers) | High-Throughput Serving | High-throughput batch contract document parsing engine |
+| **[OpenCV](https://github.com/opencv/opencv)** | [![Stars](https://img.shields.io/github/stars/opencv/opencv?style=social&color=white)](https://github.com/opencv/opencv/stargazers) | Computer Vision | Image preprocessing, rotation correction, and de-noising of contract PDFs |
+| **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** | [![Stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=social&color=white)](https://github.com/PaddlePaddle/PaddleOCR/stargazers) | Document OCR | Multi-lingual OCR for tables, line items, and invoice values |
+| **[Tesseract](https://github.com/tesseract-ocr/tesseract)** | [![Stars](https://img.shields.io/github/stars/tesseract-ocr/tesseract?style=social&color=white)](https://github.com/tesseract-ocr/tesseract/stargazers) | Optical Character Rec | Reliable text extraction from scanned PDF contracts |
+| **[Docling](https://github.com/DS4SD/docling)** | [![Stars](https://img.shields.io/github/stars/DS4SD/docling?style=social&color=white)](https://github.com/DS4SD/docling/stargazers) | Document Parsing | Parses complex financial PDFs, extracts tables and structured JSON tokens |
+| **[LlamaIndex](https://github.com/run-llama/llama_index)** | [![Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers) | RAG Framework | Contract indexing and retrieval-augmented verification against accounting rules |
+| **[Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** | [![Stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers) | Document Management | Ingestion archive and OCR indexing for financial contracts and invoices |
+| **[OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)** | [![Stars](https://img.shields.io/github/stars/ocrmypdf/OCRmyPDF?style=social&color=white)](https://github.com/ocrmypdf/OCRmyPDF/stargazers) | PDF Pipeline | Converts scanned contract images into searchable PDF/A documents |
+| **[Open3D](https://github.com/isl-org/Open3D)** | [![Stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers) | 3D Vision | Advanced spatial document alignment and structured layout rendering |
 
 ### Potential AI RevRec workflow
 
@@ -1698,3 +1525,10 @@ Always verify the current project status, license, documentation, implementation
 
 **The strongest open-source strategy today is therefore not to search for a single clone of Zuora Revenue or RightRev, but to combine an open billing platform, an open accounting platform and an auditable revenue-recognition engine into a modular self-hosted RevRec stack.**
 
+
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Revenue-Recognition-Software&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Revenue-Recognition-Software&type=date&legend=top-left)
+
+---
