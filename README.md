@@ -204,7 +204,7 @@ Open-source financial management platform purpose-built around modern revenue-co
 
 These platforms form the **general-ledger / accounting foundation** beneath a custom revenue-recognition and deferred-schedule engine, ranked by GitHub Star Count (descending).
 
-| Project | GitHub Stars | Accounting | Invoicing | Contracts | RevRec Capability | License |
+| Project | GitHub_Stars | Accounting | Invoicing | Contracts | RevRec Capability | License |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
 | **[Odoo Community](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐⭐ | LGPL-3.0 |
 | **[ERPNext](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | ✅ | ✅ | ✅ | ⭐⭐⭐⭐ | GPL-3.0 |
@@ -326,7 +326,7 @@ Open-source pricing and monetization platform supporting usage-based billing and
 
 ## 📊 Comprehensive Billing & Monetization Comparison
 
-| Project | GitHub Stars | Primary Role | License |
+| Project | GitHub_Stars | Primary Role | License |
 | :--- | :--- | :--- | :--- |
 | **[Hyperswitch](https://github.com/juspay/hyperswitch)** | [![Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers) | Payment orchestration switch & multi-rail routing | Apache-2.0 |
 | **[Medusa](https://github.com/medusajs/medusa)** | [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Headless commerce, subscription & digital checkout | MIT |
@@ -391,7 +391,7 @@ C# implementation of enterprise revenue recognition domain models based on Marti
 
 Invoicing platforms, double-entry tracking suites, and programmable financial ledgers that provide AR transactions and customer balances. Ranked by GitHub Star Count (descending).
 
-| Project | GitHub Stars | Primary Capability | Tech Stack | License |
+| Project | GitHub_Stars | Primary Capability | Tech Stack | License |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Firefly III](https://github.com/firefly-iii/firefly-iii)** | [![Stars](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers) | Double-entry financial bookkeeping & balance tracking | PHP / Laravel | AGPL-3.0 |
 | **[Akaunting](https://github.com/akaunting/akaunting)** | [![Stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers) | Small business invoicing, payments & accounting | PHP / Laravel | GPL-3.0 |
@@ -412,7 +412,7 @@ A production-grade RevRec platform requires resilient workflow orchestration, hi
 
 ## ⚙️ Workflow Orchestration
 
-| Project | GitHub Stars | Architectural Role in RevRec |
+| Project | GitHub_Stars | Architectural Role in RevRec |
 | :--- | :--- | :--- |
 | **[n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Visual integration workflows connecting CRM, Billing, and Ledgers |
 | **[Apache Airflow](https://github.com/apache/airflow)** | [![Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) | Scheduled batch RevRec calculation DAGs, waterfalls & reconciliation |
@@ -427,7 +427,7 @@ A production-grade RevRec platform requires resilient workflow orchestration, hi
 
 ## 🗄️ Financial Databases
 
-| Project | GitHub Stars | Storage Role in RevRec |
+| Project | GitHub_Stars | Storage Role in RevRec |
 | :--- | :--- | :--- |
 | **[Redis](https://github.com/redis/redis)** | [![Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers) | High-speed cache for entitlement states and real-time usage meters |
 | **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | [![Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) | Ultra-fast column store for raw metering events and revenue waterfall analytics |
@@ -441,7 +441,7 @@ A production-grade RevRec platform requires resilient workflow orchestration, hi
 
 ## ⚡ Event Streaming
 
-| Project | GitHub Stars | Streaming Role in RevRec |
+| Project | GitHub_Stars | Streaming Role in RevRec |
 | :--- | :--- | :--- |
 | **[Apache Kafka](https://github.com/apache/kafka)** | [![Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Enterprise event streaming backbone for billing events and journal changes |
 | **[NATS](https://github.com/nats-io/nats-server)** | [![Stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers) | Ultra-low latency cloud-native pub/sub for real-time usage meters |
@@ -455,7 +455,7 @@ A production-grade RevRec platform requires resilient workflow orchestration, hi
 
 A robust RevRec platform requires deep reporting for deferred revenue waterfalls, contract liabilities, cohort ARR, remaining performance obligations (RPO), and audit reconciliation. Ranked by GitHub Star Count (descending).
 
-| Project | GitHub Stars | Reporting & Analytics Role |
+| Project | GitHub_Stars | Reporting & Analytics Role |
 | :--- | :--- | :--- |
 | **[Grafana](https://github.com/grafana/grafana)** | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | Real-time financial operational monitoring, event throughput & audit metrics |
 | **[Apache Superset](https://github.com/apache/superset)** | [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | Enterprise BI exploration, deferred revenue waterfall charts & SQL queries |
@@ -470,7 +470,7 @@ A robust RevRec platform requires deep reporting for deferred revenue waterfalls
 
 AI, OCR, and Document Vision models extract contractual terms (customer, dates, products, discounts, termination clauses, performance obligations) before feeding into the RevRec accounting engine. Ranked by GitHub Star Count (descending).
 
-| Project | GitHub Stars | Category | Role in Contract Revenue Ingestion |
+| Project | GitHub_Stars | Category | Role in Contract Revenue Ingestion |
 | :--- | :--- | :--- | :--- |
 | **[Ollama](https://github.com/ollama/ollama)** | [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | LLM Runtime | Local inference runtime for private on-premises contract parsing |
 | **[Transformers](https://github.com/huggingface/transformers)** | [![Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers) | ML Framework | State-of-the-art NLP models for legal clause classification & extraction |
