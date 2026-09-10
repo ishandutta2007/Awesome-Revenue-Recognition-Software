@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="40%" stop-color="#38bdf8" />
+      <stop offset="75%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="glowGradBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(1.06); }
+    }
+    @keyframes flowLine {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes floatCard {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes nodePulse {
+      0%, 100% { r: 5; fill-opacity: 0.85; }
+      50% { r: 7.5; fill-opacity: 1; filter: drop-shadow(0 0 6px #10b981); }
+    }
+    @keyframes barGrow {
+      0%, 100% { height: 28px; y: 44px; }
+      50% { height: 48px; y: 24px; }
+    }
+    .flowing-path {
+      stroke-dasharray: 8 8;
+      animation: flowLine 3.5s linear infinite;
+    }
+    .floating-container {
+      animation: floatCard 6s ease-in-out infinite;
+    }
+    .pulsing-orb {
+      transform-origin: center;
+      animation: pulseGlow 6s ease-in-out infinite;
+    }
+    .node-dot {
+      animation: nodePulse 2.8s ease-in-out infinite;
+    }
+    .bar-anim {
+      animation: barGrow 4s ease-in-out infinite;
+    }
+    .title-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+    }
+    .badge-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 11px;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle Financial Grid Overlay -->
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="120" y1="0" x2="1200" y2="360" />
+    <line x1="240" y1="0" x2="240" y2="360" />
+    <line x1="360" y1="0" x2="360" y2="360" />
+    <line x1="480" y1="0" x2="480" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="720" y1="0" x2="720" y2="360" />
+    <line x1="840" y1="0" x2="840" y2="360" />
+    <line x1="960" y1="0" x2="960" y2="360" />
+    <line x1="1080" y1="0" x2="1080" y2="360" />
+  </g>
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="180" cy="110" r="160" fill="url(#glowGrad)" class="pulsing-orb" />
+  <circle cx="1020" cy="250" r="180" fill="url(#glowGradBlue)" class="pulsing-orb" style="animation-delay: -3s;" />
+
+  <!-- Left Branding & Typography Section -->
+  <g transform="translate(60, 50)">
+    <!-- Top Micro Badge Tag -->
+    <rect x="0" y="0" width="280" height="28" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.7"/>
+    <circle cx="14" cy="14" r="4.5" fill="#10b981" class="node-dot" />
+    <text x="28" y="18" fill="#10b981" class="badge-text">ASC 606 &amp; IFRS 15 COMPLIANT ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="0" y="78" fill="url(#primaryGrad)" class="title-text" font-size="38">Awesome Revenue</text>
+    <text x="0" y="122" fill="#ffffff" class="title-text" font-size="38">Recognition Software 💰</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="160" fill="#94a3b8" class="subtitle-text" font-size="14.5">
+      The definitive curated directory of Revenue Automation, Contract Accounting,
+    </text>
+    <text x="0" y="182" fill="#94a3b8" class="subtitle-text" font-size="14.5">
+      Deferred Waterfall, SSP Allocation, SaaS Billing &amp; Open-Source Engines.
+    </text>
+
+    <!-- Stat Badges Row -->
+    <g transform="translate(0, 210)">
+      <rect x="0" y="0" width="125" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="12" y="20" fill="#38bdf8" class="badge-text">🏢 29+ SaaS Suites</text>
+
+      <rect x="135" y="0" width="135" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="147" y="20" fill="#10b981" class="badge-text">💻 70+ Open Source</text>
+
+      <rect x="280" y="0" width="150" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="292" y="20" fill="#f59e0b" class="badge-text">⚡ ASC 606 &amp; IFRS 15</text>
+    </g>
+  </g>
+
+  <!-- Interactive Dynamic Pipeline Architecture (Right Section) -->
+  <g class="floating-container" transform="translate(620, 42)">
+    <!-- Container Box -->
+    <rect x="0" y="0" width="530" height="268" rx="14" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+
+    <!-- Terminal Window Top Bar -->
+    <rect x="0" y="0" width="530" height="36" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <circle cx="20" cy="18" r="5" fill="#ef4444" opacity="0.85"/>
+    <circle cx="36" cy="18" r="5" fill="#f59e0b" opacity="0.85"/>
+    <circle cx="52" cy="18" r="5" fill="#10b981" opacity="0.85"/>
+    <text x="75" y="22" fill="#94a3b8" class="badge-text" font-size="11.5">REVENUE RECOGNITION PIPELINE (ASC 606 / IFRS 15)</text>
+
+    <!-- Node 1: Contract Ingestion -->
+    <g transform="translate(20, 54)">
+      <rect x="0" y="0" width="135" height="74" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.2"/>
+      <text x="12" y="24" fill="#10b981" font-size="16">📄</text>
+      <text x="36" y="24" fill="#f8fafc" class="badge-text" font-size="11">Contracts &amp; Billing</text>
+      <text x="12" y="44" fill="#64748b" class="badge-text" font-size="9.5">Subscriptions · Usage</text>
+      <text x="12" y="60" fill="#94a3b8" class="badge-text" font-size="9">Multi-Tier Invoicing</text>
+    </g>
+
+    <!-- Flow Arrow 1 -> 2 -->
+    <path d="M 155 91 L 195 91" fill="none" stroke="#10b981" stroke-width="2.5" class="flowing-path" />
+
+    <!-- Node 2: SSP & Performance Obligations -->
+    <g transform="translate(195, 54)">
+      <rect x="0" y="0" width="145" height="74" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2"/>
+      <text x="12" y="24" fill="#38bdf8" font-size="16">🧮</text>
+      <text x="36" y="24" fill="#f8fafc" class="badge-text" font-size="11">POBs &amp; SSP Alloc</text>
+      <text x="12" y="44" fill="#64748b" class="badge-text" font-size="9.5">Standalone Price</text>
+      <text x="12" y="60" fill="#94a3b8" class="badge-text" font-size="9">Modifications &amp; Catch-up</text>
+    </g>
+
+    <!-- Flow Arrow 2 -> 3 -->
+    <path d="M 340 91 L 380 91" fill="none" stroke="#38bdf8" stroke-width="2.5" class="flowing-path" />
+
+    <!-- Node 3: Recognition Schedule -->
+    <g transform="translate(380, 54)">
+      <rect x="0" y="0" width="130" height="74" rx="8" fill="#1e293b" stroke="#a855f7" stroke-width="1.2"/>
+      <text x="12" y="24" fill="#a855f7" font-size="16">📊</text>
+      <text x="36" y="24" fill="#f8fafc" class="badge-text" font-size="11">Rev Waterfall</text>
+      <text x="12" y="44" fill="#64748b" class="badge-text" font-size="9.5">Point-in-Time</text>
+      <text x="12" y="60" fill="#94a3b8" class="badge-text" font-size="9">Over-Time Schedules</text>
+    </g>
+
+    <!-- Flow Arrow down to Posting -->
+    <path d="M 267 128 L 267 150" fill="none" stroke="#6366f1" stroke-width="2.5" class="flowing-path" />
+
+    <!-- Node 4: Journal Entries & ERP/GL Sync -->
+    <g transform="translate(45, 150)">
+      <rect x="0" y="0" width="440" height="96" rx="8" fill="#1e293b" stroke="#6366f1" stroke-width="1.2"/>
+      
+      <text x="18" y="26" fill="#6366f1" font-size="18">⚡</text>
+      <text x="46" y="26" fill="#f8fafc" class="badge-text" font-size="12">Automated Journal Entries &amp; General Ledger Posting</text>
+      
+      <!-- Mini Waterfall Chart visualization -->
+      <g transform="translate(46, 36)">
+        <rect x="0" y="32" width="18" height="24" rx="3" fill="#10b981" opacity="0.85"/>
+        <rect x="24" y="24" width="18" height="32" rx="3" fill="#38bdf8" opacity="0.85"/>
+        <rect x="48" y="16" width="18" height="40" rx="3" fill="#6366f1" opacity="0.85"/>
+        <rect x="72" y="8" width="18" height="48" rx="3" fill="#a855f7" opacity="0.85" class="bar-anim"/>
+        <rect x="96" y="18" width="18" height="38" rx="3" fill="#ec4899" opacity="0.85"/>
+        
+        <text x="130" y="24" fill="#cbd5e1" class="badge-text" font-size="9.5">DR Contract Asset / CR Deferred Revenue</text>
+        <text x="130" y="42" fill="#94a3b8" class="badge-text" font-size="9">DR Deferred Revenue / CR Earned Revenue</text>
+        <text x="130" y="56" fill="#64748b" class="badge-text" font-size="8.5">Sync: NetSuite · SAP · Oracle · Dynamics · ERPNext · Odoo · OpenBooks</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Stripe -->
+  <rect x="0" y="354" width="1200" height="6" fill="url(#primaryGrad)" />
+</svg>
